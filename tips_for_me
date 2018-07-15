@@ -31,4 +31,32 @@ git checkout -- imports/ui/Login.js
 
 pour tout rétablir par rapport au dernier commit:
 
+git checkout -- .
 
+5-
+git add .
+git reset HEAD . // annule le dernier git add
+
+6-
+git remote add origin git@github.com:tknack/short-lnk-meteor.git
+git remote
+git remote -v
+git push -u origin master
+
+
+Github:
+créer une clé rsa pour github
+ssh-keygen -t rsa -b 4096 -C "tknack6@gmail.com"
+
+obtenir la clé de l'gent ssh
+ eval "$(ssh-agent -s)"
+
+obtention de la clé publique locale
+ssh-add ~/.ssh/id_rsa
+
+afficher la clé rsa à coller dans github
+less ~/.ssh/id_rsa.pub
+(rubrique SSH and GPG Keys -> new SSH Key)
+
+Accéder à github
+ssh -T git@github.com

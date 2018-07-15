@@ -1,7 +1,7 @@
-Short Link
+# Short Link
 
-This is a link shrtener built on Meteor and React
+This is a link shortener built on Meteor and React
 
-Author
+## Authors
 
 Tknack
