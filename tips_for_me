@@ -14,4 +14,21 @@ git status
 
 ----------
 Untracked Files:			Staged Changes				Commits
- myFile.js	--- git add ---------->  myFile.js	--- git commit --->	1ab49		
+ myFile.js	--- git add ---------->  myFile.js	--- git commit --->	1ab49
+----------
+
+		
+3- 
+git add package.json
+git add .
+git commit -m "initial"
+git status
+
+4 -
+si après un changement dans le fichier Login.js par exemple, on peut revenir en arrière par:
+
+git checkout -- imports/ui/Login.js
+
+pour tout rétablir par rapport au dernier commit:
+
+
