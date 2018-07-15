@@ -1,0 +1,17 @@
+Git:
+
+1-
+git --version
+git config --global user.email "tknack66@gmail.com"
+git config --global user.name "Tknack"
+git config --list
+git config user.name
+git config user.email
+
+2-
+git init
+git status
+
+----------
+Untracked Files:			Staged Changes				Commits
+ myFile.js	--- git add ---------->  myFile.js	--- git commit --->	1ab49		
